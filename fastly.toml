@@ -1,0 +1,6 @@
+authors = ["something"]
+description = "init"
+language = "rust"
+manifest_version = 1
+name = "init"
+service_id = "something"
