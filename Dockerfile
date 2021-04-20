@@ -11,5 +11,5 @@ COPY fastly.toml Cargo.toml rust-toolchain .cargo .
 RUN ls -a -R .
 RUN fastly compute build || true
 WORKDIR /app
-ENTRYPOINT ["fastly"]
+ENTRYPOINT ["/usr/bin/fastly"]
 CMD ["--help"]
