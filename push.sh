@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker push ghcr.io/andersjanmyr/fastly:0.36.1
+docker push ghcr.io/andersjanmyr/fastly:0.39.3
